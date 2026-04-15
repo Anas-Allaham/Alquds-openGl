@@ -1,0 +1,18 @@
+﻿Build started 3/14/2026 10:29:37 PM.
+     1>Project "D:\14the\Project5\Project4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 3DTexture.cpp camera.cpp Model_3DS.cpp texture.cpp
+         texture.cpp
+     1>d:\14the\project5\texture.cpp(7): fatal error C1083: Cannot open include file: 'texture.h': No such file or directory
+         Model_3DS.cpp
+     1>d:\14the\project5\model_3ds.cpp(81): fatal error C1083: Cannot open include file: 'Model_3DS.h': No such file or directory
+         camera.cpp
+     1>d:\14the\project5\camera.cpp(8): fatal error C1083: Cannot open include file: 'camera.h': No such file or directory
+         3DTexture.cpp
+     1>d:\14the\project5\3dtexture.cpp(37): fatal error C1083: Cannot open include file: '3DTexture.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\14the\Project5\Project4.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.46
